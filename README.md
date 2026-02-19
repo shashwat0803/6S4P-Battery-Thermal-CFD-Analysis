@@ -1,13 +1,13 @@
 # 6S4P-Battery-Thermal-CFD-Analysis
 
 
-🔋 Thermal Performance Evaluation of a 6S4P Li-ion Battery Module (CFD Study)
-📌 Project Objective
+Thermal Performance Evaluation of a 6S4P Li-ion Battery Module (CFD Study)
+Project Objective
 
 To evaluate the thermal performance of a 6S4P cylindrical Li-ion battery module under 1C discharge using SolidWorks Flow Simulation and assess the impact of convective cooling conditions.
 
 
-🧱 System Configuration
+System Configuration
 
 Battery configuration: 6S4P (24 cylindrical cells)
 
@@ -22,7 +22,7 @@ Cooling mechanism: Air convection
 Solver: SolidWorks Flow Simulation (CFD)
 
 
-⚙ Simulation Setup
+Simulation Setup
 Governing Physics:
 
 Conjugate heat transfer
@@ -58,7 +58,7 @@ Constant material properties
 Incompressible airflow
 
 
-📊 Key Results
+Key Results
 | Case   | Cooling Type       | h (W/m²K) | Tmax (°C) |
 | ------ | ------------------ | --------- | --------- |
 | Case 1 | Natural Convection | 10        | 75°C      |
@@ -74,7 +74,7 @@ Increasing convective heat transfer reduced peak temperature by ~48%.
 Conductive aluminum plate improved temperature uniformity.
 
 
-📈 Engineering Insights
+Engineering Insights
 
 Convective boundary conditions strongly influence battery temperature.
 
@@ -85,7 +85,7 @@ Moderate airflow ensures safe operating conditions.
 Thermal management must combine conduction + active convection.
 
 
-🧪 Validation Approach
+Validation Approach
 
 Heat generation calculated using:
 
@@ -96,7 +96,7 @@ Compared temperature range with typical Li-ion operating limits (45–60°C).
 Verified energy balance consistency.
 
 
-🚀 Future Improvements
+Future Improvements
 
 Transient thermal analysis
 
